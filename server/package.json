@@ -1,0 +1,33 @@
+{
+  "name": "quiz-app-server",
+  "version": "1.0.0",
+  "description": "Server for the quiz app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "set NODE_ENV=DEV && nodemon ."
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "mongodb",
+    "quiz-api"
+  ],
+  "author": "Gagandeep",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.6",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.42",
+    "nodemon": "^2.0.15"
+  }
+}
