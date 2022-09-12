@@ -1,14 +1,38 @@
-# voyage-tasks
+# ✨Rapid Fire✨
+Rapid Fire is a quiz based application which give user 10 questions on specific topic, written in React and backend is in NodeJS and Mongo
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
+## Take a Demo
+>[RapidFire](https://v40-bears-team-36.vercel.app/)
 
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
+## Features
 
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
+- Smooth and Funky UI with animations.
+- Choose questions on multiple categories.
+- Give Quizes any number of times you want.
 
-> Own it & Make it your Own!
+## Upcoming Features
+- Option to add new questions to database.
+- More Categories Coming soon
+- Persistent functionality to track you previous attempts
+- Login and Logout functionalities.
+
+## Want to try the code locally
+
+Below are the steps you need to follow to run code locally:
+
+- Fork the code 
+-- server folder: This folder contain the backend nodejs code.
+-- main branch: This is the main frontend code.
+- Create an `.env` file under server/config, update the properties using the given `.env.example` in code
+- Do a npm install in both server folder and main code.
+    ```sh
+    npm install
+    ```
+- Run the server code in server folder using nodemon.
+    ```sh
+    nodemon server
+    ```
+- Run the frontend code in frontend folder using start script
+    ```sh
+    npm start
+    ```
