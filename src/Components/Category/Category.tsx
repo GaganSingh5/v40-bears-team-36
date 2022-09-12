@@ -38,6 +38,7 @@ function Category() {
             );
           }
         )}
+        <h3 className='text-center py-4'>More categories coming soon!!</h3>
       </div>
     </section>
   );
