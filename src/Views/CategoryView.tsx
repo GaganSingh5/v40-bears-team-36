@@ -7,7 +7,7 @@ const CategoryView = () => {
     <>
       <Nav />
       <Category />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
