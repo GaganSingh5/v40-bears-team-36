@@ -132,3 +132,17 @@ $colors: (
     transform: scale(1);
   }
 }
+
+
+
+.category__soon {
+  font-weight: 500;
+  font-size: 2.5rem;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  font-family: "Patrick Hand", cursive;
+  animation: scaleIn 0.5s var(--ease) 0.4s forwards;
+  opacity: 0;
+  transform: translateX(-40px);
+}
